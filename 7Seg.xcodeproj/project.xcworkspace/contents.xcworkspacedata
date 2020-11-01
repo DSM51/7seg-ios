@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:">
+      location = "self:/Users/rzeszot/Work/dsm51/7-segment/7Seg.xcodeproj">
    </FileRef>
 </Workspace>
