@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6235A9022556EAAB00649C86 /* Color+Segment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6235A9012556EAAB00649C86 /* Color+Segment.swift */; };
+		6235A90A2556EC9C00649C86 /* Diode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6235A9092556EC9C00649C86 /* Diode.swift */; };
+		626374F82557535A006335CF /* SegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626374F72557535A006335CF /* SegmentView.swift */; };
 		62DE7239254F63760002E51E /* SegmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DE7238254F63760002E51E /* SegmentApp.swift */; };
 		62DE723B254F63760002E51E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DE723A254F63760002E51E /* ContentView.swift */; };
 		62DE723D254F63770002E51E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62DE723C254F63770002E51E /* Assets.xcassets */; };
 		62DE7240254F63770002E51E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62DE723F254F63770002E51E /* Preview Assets.xcassets */; };
-		62DE724B254F63770002E51E /* __segmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DE724A254F63770002E51E /* __segmentTests.swift */; };
-		62DE7256254F63770002E51E /* __segmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DE7255254F63770002E51E /* __segmentUITests.swift */; };
-		62DE727C254F64010002E51E /* SegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DE727B254F64010002E51E /* SegmentView.swift */; };
+		62DE724B254F63770002E51E /* DiodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DE724A254F63770002E51E /* DiodeTests.swift */; };
+		62DE7256254F63770002E51E /* ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DE7255254F63770002E51E /* ExampleUITests.swift */; };
+		62DE727C254F64010002E51E /* Display.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DE727B254F64010002E51E /* Display.swift */; };
+		62DE7284254F77FD0002E51E /* Segment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DE7283254F77FD0002E51E /* Segment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +38,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		62DE7235254F63760002E51E /* 7Seg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 7Seg.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6235A9012556EAAB00649C86 /* Color+Segment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Segment.swift"; sourceTree = "<group>"; };
+		6235A9092556EC9C00649C86 /* Diode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diode.swift; sourceTree = "<group>"; };
+		626374F72557535A006335CF /* SegmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentView.swift; sourceTree = "<group>"; };
+		62DE7235254F63760002E51E /* Segments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Segments.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62DE7238254F63760002E51E /* SegmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentApp.swift; sourceTree = "<group>"; };
 		62DE723A254F63760002E51E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		62DE723C254F63770002E51E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62DE723F254F63770002E51E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		62DE7241254F63770002E51E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		62DE7246254F63770002E51E /* 7SegTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 7SegTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		62DE724A254F63770002E51E /* __segmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __segmentTests.swift; sourceTree = "<group>"; };
+		62DE7246254F63770002E51E /* Unit Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unit Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62DE724A254F63770002E51E /* DiodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiodeTests.swift; sourceTree = "<group>"; };
 		62DE724C254F63770002E51E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		62DE7251254F63770002E51E /* 7SegUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 7SegUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		62DE7255254F63770002E51E /* __segmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __segmentUITests.swift; sourceTree = "<group>"; };
+		62DE7251254F63770002E51E /* UI Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UI Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62DE7255254F63770002E51E /* ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleUITests.swift; sourceTree = "<group>"; };
 		62DE7257254F63770002E51E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		62DE727B254F64010002E51E /* SegmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentView.swift; sourceTree = "<group>"; };
+		62DE727B254F64010002E51E /* Display.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Display.swift; sourceTree = "<group>"; };
+		62DE7283254F77FD0002E51E /* Segment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Segment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,10 +82,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6246EB6C2556E86800B86334 /* SegmentView */ = {
+			isa = PBXGroup;
+			children = (
+				62DE7283254F77FD0002E51E /* Segment.swift */,
+				6235A9012556EAAB00649C86 /* Color+Segment.swift */,
+				62DE727B254F64010002E51E /* Display.swift */,
+				6235A9092556EC9C00649C86 /* Diode.swift */,
+				626374F72557535A006335CF /* SegmentView.swift */,
+			);
+			path = SegmentView;
+			sourceTree = "<group>";
+		};
 		62DE722C254F63760002E51E = {
 			isa = PBXGroup;
 			children = (
-				62DE7237254F63760002E51E /* 7-segment */,
+				62DE7237254F63760002E51E /* Segments */,
 				62DE7249254F63770002E51E /* Unit Tests */,
 				62DE7254254F63770002E51E /* UI Tests */,
 				62DE7236254F63760002E51E /* Products */,
@@ -87,24 +107,24 @@
 		62DE7236254F63760002E51E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				62DE7235254F63760002E51E /* 7Seg.app */,
-				62DE7246254F63770002E51E /* 7SegTests.xctest */,
-				62DE7251254F63770002E51E /* 7SegUITests.xctest */,
+				62DE7235254F63760002E51E /* Segments.app */,
+				62DE7246254F63770002E51E /* Unit Tests.xctest */,
+				62DE7251254F63770002E51E /* UI Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		62DE7237254F63760002E51E /* 7-segment */ = {
+		62DE7237254F63760002E51E /* Segments */ = {
 			isa = PBXGroup;
 			children = (
-				62DE7238254F63760002E51E /* SegmentApp.swift */,
+				6246EB6C2556E86800B86334 /* SegmentView */,
 				62DE723A254F63760002E51E /* ContentView.swift */,
-				62DE727B254F64010002E51E /* SegmentView.swift */,
+				62DE7238254F63760002E51E /* SegmentApp.swift */,
 				62DE723C254F63770002E51E /* Assets.xcassets */,
 				62DE7241254F63770002E51E /* Info.plist */,
 				62DE723E254F63770002E51E /* Preview Content */,
 			);
-			path = "7-segment";
+			path = Segments;
 			sourceTree = "<group>";
 		};
 		62DE723E254F63770002E51E /* Preview Content */ = {
@@ -118,7 +138,7 @@
 		62DE7249254F63770002E51E /* Unit Tests */ = {
 			isa = PBXGroup;
 			children = (
-				62DE724A254F63770002E51E /* __segmentTests.swift */,
+				62DE724A254F63770002E51E /* DiodeTests.swift */,
 				62DE724C254F63770002E51E /* Info.plist */,
 			);
 			path = "Unit Tests";
@@ -127,7 +147,7 @@
 		62DE7254254F63770002E51E /* UI Tests */ = {
 			isa = PBXGroup;
 			children = (
-				62DE7255254F63770002E51E /* __segmentUITests.swift */,
+				62DE7255254F63770002E51E /* ExampleUITests.swift */,
 				62DE7257254F63770002E51E /* Info.plist */,
 			);
 			path = "UI Tests";
@@ -136,9 +156,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		62DE7234254F63760002E51E /* 7Seg */ = {
+		62DE7234254F63760002E51E /* Segments */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 62DE725A254F63770002E51E /* Build configuration list for PBXNativeTarget "7Seg" */;
+			buildConfigurationList = 62DE725A254F63770002E51E /* Build configuration list for PBXNativeTarget "Segments" */;
 			buildPhases = (
 				62DE7231254F63760002E51E /* Sources */,
 				62DE7232254F63760002E51E /* Frameworks */,
@@ -148,14 +168,14 @@
 			);
 			dependencies = (
 			);
-			name = 7Seg;
+			name = Segments;
 			productName = "7-segment";
-			productReference = 62DE7235254F63760002E51E /* 7Seg.app */;
+			productReference = 62DE7235254F63760002E51E /* Segments.app */;
 			productType = "com.apple.product-type.application";
 		};
-		62DE7245254F63770002E51E /* 7SegTests */ = {
+		62DE7245254F63770002E51E /* Unit Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 62DE725D254F63770002E51E /* Build configuration list for PBXNativeTarget "7SegTests" */;
+			buildConfigurationList = 62DE725D254F63770002E51E /* Build configuration list for PBXNativeTarget "Unit Tests" */;
 			buildPhases = (
 				62DE7242254F63770002E51E /* Sources */,
 				62DE7243254F63770002E51E /* Frameworks */,
@@ -166,14 +186,14 @@
 			dependencies = (
 				62DE7248254F63770002E51E /* PBXTargetDependency */,
 			);
-			name = 7SegTests;
+			name = "Unit Tests";
 			productName = "7-segmentTests";
-			productReference = 62DE7246254F63770002E51E /* 7SegTests.xctest */;
+			productReference = 62DE7246254F63770002E51E /* Unit Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		62DE7250254F63770002E51E /* 7SegUITests */ = {
+		62DE7250254F63770002E51E /* UI Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 62DE7260254F63770002E51E /* Build configuration list for PBXNativeTarget "7SegUITests" */;
+			buildConfigurationList = 62DE7260254F63770002E51E /* Build configuration list for PBXNativeTarget "UI Tests" */;
 			buildPhases = (
 				62DE724D254F63770002E51E /* Sources */,
 				62DE724E254F63770002E51E /* Frameworks */,
@@ -184,9 +204,9 @@
 			dependencies = (
 				62DE7253254F63770002E51E /* PBXTargetDependency */,
 			);
-			name = 7SegUITests;
+			name = "UI Tests";
 			productName = "7-segmentUITests";
-			productReference = 62DE7251254F63770002E51E /* 7SegUITests.xctest */;
+			productReference = 62DE7251254F63770002E51E /* UI Tests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -211,7 +231,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 62DE7230254F63760002E51E /* Build configuration list for PBXProject "7Seg" */;
+			buildConfigurationList = 62DE7230254F63760002E51E /* Build configuration list for PBXProject "Segments" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -224,9 +244,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				62DE7234254F63760002E51E /* 7Seg */,
-				62DE7245254F63770002E51E /* 7SegTests */,
-				62DE7250254F63770002E51E /* 7SegUITests */,
+				62DE7234254F63760002E51E /* Segments */,
+				62DE7245254F63770002E51E /* Unit Tests */,
+				62DE7250254F63770002E51E /* UI Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -263,8 +283,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				62DE723B254F63760002E51E /* ContentView.swift in Sources */,
-				62DE727C254F64010002E51E /* SegmentView.swift in Sources */,
+				62DE727C254F64010002E51E /* Display.swift in Sources */,
 				62DE7239254F63760002E51E /* SegmentApp.swift in Sources */,
+				62DE7284254F77FD0002E51E /* Segment.swift in Sources */,
+				626374F82557535A006335CF /* SegmentView.swift in Sources */,
+				6235A9022556EAAB00649C86 /* Color+Segment.swift in Sources */,
+				6235A90A2556EC9C00649C86 /* Diode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +296,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62DE724B254F63770002E51E /* __segmentTests.swift in Sources */,
+				62DE724B254F63770002E51E /* DiodeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +304,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62DE7256254F63770002E51E /* __segmentUITests.swift in Sources */,
+				62DE7256254F63770002E51E /* ExampleUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,12 +313,12 @@
 /* Begin PBXTargetDependency section */
 		62DE7248254F63770002E51E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 62DE7234254F63760002E51E /* 7Seg */;
+			target = 62DE7234254F63760002E51E /* Segments */;
 			targetProxy = 62DE7247254F63770002E51E /* PBXContainerItemProxy */;
 		};
 		62DE7253254F63770002E51E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 62DE7234254F63760002E51E /* 7Seg */;
+			target = 62DE7234254F63760002E51E /* Segments */;
 			targetProxy = 62DE7252254F63770002E51E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -422,10 +446,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"7-segment/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 9G47WR9NR2;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "7-segment/Info.plist";
+				INFOPLIST_FILE = Segments/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -434,7 +458,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "pro.rzeszot.seven-segment";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -444,10 +468,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"7-segment/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 9G47WR9NR2;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "7-segment/Info.plist";
+				INFOPLIST_FILE = Segments/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -456,7 +480,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "pro.rzeszot.seven-segment";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -467,18 +491,18 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9G47WR9NR2;
-				INFOPLIST_FILE = "7-segmentTests/Info.plist";
+				INFOPLIST_FILE = "Unit Tests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "pro.rzeszot.--segmentTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "pro.rzeszot.segments.unit-tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/7Seg.app/7Seg";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Segments.app/Segments";
 			};
 			name = Debug;
 		};
@@ -489,18 +513,18 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9G47WR9NR2;
-				INFOPLIST_FILE = "7-segmentTests/Info.plist";
+				INFOPLIST_FILE = "Unit Tests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "pro.rzeszot.--segmentTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "pro.rzeszot.segments.unit-tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/7Seg.app/7Seg";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Segments.app/Segments";
 			};
 			name = Release;
 		};
@@ -510,13 +534,13 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9G47WR9NR2;
-				INFOPLIST_FILE = "7-segmentUITests/Info.plist";
+				INFOPLIST_FILE = "UI Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "pro.rzeszot.--segmentUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "pro.rzeszot.segments.ui-tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -530,13 +554,13 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9G47WR9NR2;
-				INFOPLIST_FILE = "7-segmentUITests/Info.plist";
+				INFOPLIST_FILE = "UI Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "pro.rzeszot.--segmentUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "pro.rzeszot.segments.ui-tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -547,7 +571,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		62DE7230254F63760002E51E /* Build configuration list for PBXProject "7Seg" */ = {
+		62DE7230254F63760002E51E /* Build configuration list for PBXProject "Segments" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				62DE7258254F63770002E51E /* Debug */,
@@ -556,7 +580,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		62DE725A254F63770002E51E /* Build configuration list for PBXNativeTarget "7Seg" */ = {
+		62DE725A254F63770002E51E /* Build configuration list for PBXNativeTarget "Segments" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				62DE725B254F63770002E51E /* Debug */,
@@ -565,7 +589,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		62DE725D254F63770002E51E /* Build configuration list for PBXNativeTarget "7SegTests" */ = {
+		62DE725D254F63770002E51E /* Build configuration list for PBXNativeTarget "Unit Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				62DE725E254F63770002E51E /* Debug */,
@@ -574,7 +598,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		62DE7260254F63770002E51E /* Build configuration list for PBXNativeTarget "7SegUITests" */ = {
+		62DE7260254F63770002E51E /* Build configuration list for PBXNativeTarget "UI Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				62DE7261254F63770002E51E /* Debug */,

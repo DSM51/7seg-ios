@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "62DE7234254F63760002E51E"
-               BuildableName = "7Seg.app"
-               BlueprintName = "7Seg"
-               ReferencedContainer = "container:7Seg.xcodeproj">
+               BuildableName = "Segments.app"
+               BlueprintName = "Segments"
+               ReferencedContainer = "container:Segments.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "62DE7245254F63770002E51E"
-               BuildableName = "7SegTests.xctest"
-               BlueprintName = "7SegTests"
-               ReferencedContainer = "container:7Seg.xcodeproj">
+               BuildableName = "Unit Tests.xctest"
+               BlueprintName = "Unit Tests"
+               ReferencedContainer = "container:Segments.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "62DE7250254F63770002E51E"
-               BuildableName = "7SegUITests.xctest"
-               BlueprintName = "7SegUITests"
-               ReferencedContainer = "container:7Seg.xcodeproj">
+               BuildableName = "UI Tests.xctest"
+               BlueprintName = "UI Tests"
+               ReferencedContainer = "container:Segments.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -65,9 +65,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "62DE7234254F63760002E51E"
-            BuildableName = "7Seg.app"
-            BlueprintName = "7Seg"
-            ReferencedContainer = "container:7Seg.xcodeproj">
+            BuildableName = "Segments.app"
+            BlueprintName = "Segments"
+            ReferencedContainer = "container:Segments.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -82,9 +82,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "62DE7234254F63760002E51E"
-            BuildableName = "7Seg.app"
-            BlueprintName = "7Seg"
-            ReferencedContainer = "container:7Seg.xcodeproj">
+            BuildableName = "Segments.app"
+            BlueprintName = "Segments"
+            ReferencedContainer = "container:Segments.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

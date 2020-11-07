@@ -14,18 +14,23 @@ struct ContentView: View {
 
     var body: some View {
         VStack {
+            Spacer()
+
             SegmentView(active: $state)
-                .frame(width: 200, height: 300)
-                .offset(x: -50, y: 0)
+                .padding(.horizontal, 50)
+
             Divider()
                 .padding(.vertical, 20)
 
             Text("Decimal: " + String(state.value))
             Text("Hexadecimal: " + String(state.value, radix: 16))
             Text("Binary: " + String(state.value, radix: 2))
+
+            Spacer()
         }
         .foregroundColor(Color.white)
         .background(Color("background"))
+        .edgesIgnoringSafeArea(.all)
     }
 }
 
