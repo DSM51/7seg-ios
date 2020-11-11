@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		6235A90A2556EC9C00649C86 /* DiodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6235A9092556EC9C00649C86 /* DiodeView.swift */; };
-		626374F82557535A006335CF /* SegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626374F72557535A006335CF /* SegmentView.swift */; };
+		6264F04B255C7E780098CB66 /* Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6264F04A255C7E780098CB66 /* Number.swift */; };
+		6264F06A255C957A0098CB66 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6264F069255C957A0098CB66 /* Model.swift */; };
 		62DE7239254F63760002E51E /* SegmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DE7238254F63760002E51E /* SegmentApp.swift */; };
 		62DE723B254F63760002E51E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DE723A254F63760002E51E /* ContentView.swift */; };
 		62DE723D254F63770002E51E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62DE723C254F63770002E51E /* Assets.xcassets */; };
-		62DE7240254F63770002E51E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62DE723F254F63770002E51E /* Preview Assets.xcassets */; };
 		62DE724B254F63770002E51E /* DiodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DE724A254F63770002E51E /* DiodeTests.swift */; };
 		62DE7256254F63770002E51E /* ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DE7255254F63770002E51E /* ExampleUITests.swift */; };
-		62DE727C254F64010002E51E /* DisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DE727B254F64010002E51E /* DisplayView.swift */; };
+		62DE727C254F64010002E51E /* SegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DE727B254F64010002E51E /* SegmentView.swift */; };
 		62DE7284254F77FD0002E51E /* Segment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DE7283254F77FD0002E51E /* Segment.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,12 +38,12 @@
 
 /* Begin PBXFileReference section */
 		6235A9092556EC9C00649C86 /* DiodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiodeView.swift; sourceTree = "<group>"; };
-		626374F72557535A006335CF /* SegmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentView.swift; sourceTree = "<group>"; };
+		6264F04A255C7E780098CB66 /* Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Number.swift; sourceTree = "<group>"; };
+		6264F069255C957A0098CB66 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		62DE7235254F63760002E51E /* Segments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Segments.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62DE7238254F63760002E51E /* SegmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentApp.swift; sourceTree = "<group>"; };
 		62DE723A254F63760002E51E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		62DE723C254F63770002E51E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		62DE723F254F63770002E51E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		62DE7241254F63770002E51E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62DE7246254F63770002E51E /* Unit Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unit Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		62DE724A254F63770002E51E /* DiodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiodeTests.swift; sourceTree = "<group>"; };
@@ -51,7 +51,7 @@
 		62DE7251254F63770002E51E /* UI Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UI Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		62DE7255254F63770002E51E /* ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleUITests.swift; sourceTree = "<group>"; };
 		62DE7257254F63770002E51E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		62DE727B254F64010002E51E /* DisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayView.swift; sourceTree = "<group>"; };
+		62DE727B254F64010002E51E /* SegmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentView.swift; sourceTree = "<group>"; };
 		62DE7283254F77FD0002E51E /* Segment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Segment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,15 +80,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6246EB6C2556E86800B86334 /* SegmentView */ = {
+		6246EB6C2556E86800B86334 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
 				62DE7283254F77FD0002E51E /* Segment.swift */,
 				6235A9092556EC9C00649C86 /* DiodeView.swift */,
-				62DE727B254F64010002E51E /* DisplayView.swift */,
-				626374F72557535A006335CF /* SegmentView.swift */,
+				62DE727B254F64010002E51E /* SegmentView.swift */,
+				6264F04A255C7E780098CB66 /* Number.swift */,
+				6264F069255C957A0098CB66 /* Model.swift */,
 			);
-			path = SegmentView;
+			path = Shared;
 			sourceTree = "<group>";
 		};
 		62DE722C254F63760002E51E = {
@@ -114,22 +115,13 @@
 		62DE7237254F63760002E51E /* Segments */ = {
 			isa = PBXGroup;
 			children = (
-				6246EB6C2556E86800B86334 /* SegmentView */,
+				6246EB6C2556E86800B86334 /* Shared */,
 				62DE723A254F63760002E51E /* ContentView.swift */,
 				62DE7238254F63760002E51E /* SegmentApp.swift */,
 				62DE723C254F63770002E51E /* Assets.xcassets */,
 				62DE7241254F63770002E51E /* Info.plist */,
-				62DE723E254F63770002E51E /* Preview Content */,
 			);
 			path = Segments;
-			sourceTree = "<group>";
-		};
-		62DE723E254F63770002E51E /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				62DE723F254F63770002E51E /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		62DE7249254F63770002E51E /* Unit Tests */ = {
@@ -253,7 +245,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62DE7240254F63770002E51E /* Preview Assets.xcassets in Resources */,
 				62DE723D254F63770002E51E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,11 +270,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6264F06A255C957A0098CB66 /* Model.swift in Sources */,
 				62DE723B254F63760002E51E /* ContentView.swift in Sources */,
-				62DE727C254F64010002E51E /* DisplayView.swift in Sources */,
+				62DE727C254F64010002E51E /* SegmentView.swift in Sources */,
 				62DE7239254F63760002E51E /* SegmentApp.swift in Sources */,
+				6264F04B255C7E780098CB66 /* Number.swift in Sources */,
 				62DE7284254F77FD0002E51E /* Segment.swift in Sources */,
-				626374F82557535A006335CF /* SegmentView.swift in Sources */,
 				6235A90A2556EC9C00649C86 /* DiodeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -451,7 +443,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "pro.rzeszot.seven-segment";
+				PRODUCT_BUNDLE_IDENTIFIER = pro.rzeszot.segments.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -473,7 +465,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "pro.rzeszot.seven-segment";
+				PRODUCT_BUNDLE_IDENTIFIER = pro.rzeszot.segments.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;

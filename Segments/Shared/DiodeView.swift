@@ -84,6 +84,7 @@ private extension CGRect {
 struct Diode_Previews: PreviewProvider {
   static var previews: some View {
     DiodeShape()
+      .aspectRatio(26/90, contentMode: .fit)
       .background(Color.yellow)
       .padding(100)
   }

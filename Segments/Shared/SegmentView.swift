@@ -1,8 +1,9 @@
 import SwiftUI
 
-struct DisplayView: View {
-  @Binding
-  var active: Set<Segment>
+struct SegmentView: View {
+
+  @ObservedObject
+  var active: Model
 
   var body: some View {
     GeometryReader { geometry in
@@ -101,20 +102,12 @@ struct DisplayView: View {
   }
 }
 
-extension Set where Element == Segment {
-  func color(for segment: Segment) -> Color {
-    if contains(segment) {
-      return .accentColor
-    } else {
-      return .secondary
-    }
-  }
-
-  mutating func toggle(_ segment: Segment) {
-    if contains(segment) {
-      remove(segment)
-    } else {
-      insert(segment)
-    }
+#if DEBUG
+struct SegmentView_Previews: PreviewProvider {
+  static var previews: some View {
+    SegmentView(active: Model())
+      .background(Color.yellow)
+      .padding(100)
   }
 }
+#endif
