@@ -4,7 +4,7 @@ struct Hexadecimal: View {
   let value: Int
 
   var body: some View {
-    Overlay {
+    Overlay(color: .blue) {
       HStack(spacing: 2) {
         Text("0x")
           .foregroundColor(.secondary)
@@ -22,7 +22,7 @@ struct Binary: View {
     let string = String(value, radix: 2)
     let padded = String(repeating: "0", count: 8 - string.count) + string
 
-    Overlay {
+    Overlay(color: .blue) {
       HStack(spacing: 2) {
         Text("0b")
           .foregroundColor(.secondary)
@@ -32,10 +32,12 @@ struct Binary: View {
           .foregroundColor(.primary)
       }
     }
+    .foregroundColor(.blue)
   }
 }
 
 private struct Overlay<Content: View>: View {
+  let color: Color
   let content: () -> Content
 
   var body: some View {
@@ -46,7 +48,7 @@ private struct Overlay<Content: View>: View {
       .cornerRadius(10)
       .overlay(
         RoundedRectangle(cornerRadius: 10)
-          .stroke(Color.secondary, lineWidth: 5)
+          .stroke(color, lineWidth: 3)
       )
   }
 }

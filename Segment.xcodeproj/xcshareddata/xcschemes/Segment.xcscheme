@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "62DE7234254F63760002E51E"
-               BuildableName = "Segments.app"
-               BlueprintName = "Segments"
-               ReferencedContainer = "container:Segments.xcodeproj">
+               BuildableName = "Segment.app"
+               BlueprintName = "Segment"
+               ReferencedContainer = "container:Segment.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "62DE7245254F63770002E51E"
                BuildableName = "Unit Tests.xctest"
                BlueprintName = "Unit Tests"
-               ReferencedContainer = "container:Segments.xcodeproj">
+               ReferencedContainer = "container:Segment.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -45,7 +45,7 @@
                BlueprintIdentifier = "62DE7250254F63770002E51E"
                BuildableName = "UI Tests.xctest"
                BlueprintName = "UI Tests"
-               ReferencedContainer = "container:Segments.xcodeproj">
+               ReferencedContainer = "container:Segment.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -65,9 +65,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "62DE7234254F63760002E51E"
-            BuildableName = "Segments.app"
-            BlueprintName = "Segments"
-            ReferencedContainer = "container:Segments.xcodeproj">
+            BuildableName = "Segment.app"
+            BlueprintName = "Segment"
+            ReferencedContainer = "container:Segment.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -82,9 +82,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "62DE7234254F63760002E51E"
-            BuildableName = "Segments.app"
-            BlueprintName = "Segments"
-            ReferencedContainer = "container:Segments.xcodeproj">
+            BuildableName = "Segment.app"
+            BlueprintName = "Segment"
+            ReferencedContainer = "container:Segment.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

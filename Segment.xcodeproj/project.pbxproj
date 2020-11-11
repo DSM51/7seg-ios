@@ -40,7 +40,7 @@
 		6235A9092556EC9C00649C86 /* DiodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiodeView.swift; sourceTree = "<group>"; };
 		6264F04A255C7E780098CB66 /* Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Number.swift; sourceTree = "<group>"; };
 		6264F069255C957A0098CB66 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
-		62DE7235254F63760002E51E /* Segments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Segments.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62DE7235254F63760002E51E /* Segment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Segment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62DE7238254F63760002E51E /* SegmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentApp.swift; sourceTree = "<group>"; };
 		62DE723A254F63760002E51E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		62DE723C254F63770002E51E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -95,7 +95,7 @@
 		62DE722C254F63760002E51E = {
 			isa = PBXGroup;
 			children = (
-				62DE7237254F63760002E51E /* Segments */,
+				62DE7237254F63760002E51E /* Segment */,
 				62DE7249254F63770002E51E /* Unit Tests */,
 				62DE7254254F63770002E51E /* UI Tests */,
 				62DE7236254F63760002E51E /* Products */,
@@ -105,14 +105,14 @@
 		62DE7236254F63760002E51E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				62DE7235254F63760002E51E /* Segments.app */,
+				62DE7235254F63760002E51E /* Segment.app */,
 				62DE7246254F63770002E51E /* Unit Tests.xctest */,
 				62DE7251254F63770002E51E /* UI Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		62DE7237254F63760002E51E /* Segments */ = {
+		62DE7237254F63760002E51E /* Segment */ = {
 			isa = PBXGroup;
 			children = (
 				6246EB6C2556E86800B86334 /* Shared */,
@@ -121,7 +121,7 @@
 				62DE723C254F63770002E51E /* Assets.xcassets */,
 				62DE7241254F63770002E51E /* Info.plist */,
 			);
-			path = Segments;
+			path = Segment;
 			sourceTree = "<group>";
 		};
 		62DE7249254F63770002E51E /* Unit Tests */ = {
@@ -145,9 +145,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		62DE7234254F63760002E51E /* Segments */ = {
+		62DE7234254F63760002E51E /* Segment */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 62DE725A254F63770002E51E /* Build configuration list for PBXNativeTarget "Segments" */;
+			buildConfigurationList = 62DE725A254F63770002E51E /* Build configuration list for PBXNativeTarget "Segment" */;
 			buildPhases = (
 				62DE7231254F63760002E51E /* Sources */,
 				62DE7232254F63760002E51E /* Frameworks */,
@@ -157,9 +157,9 @@
 			);
 			dependencies = (
 			);
-			name = Segments;
+			name = Segment;
 			productName = "7-segment";
-			productReference = 62DE7235254F63760002E51E /* Segments.app */;
+			productReference = 62DE7235254F63760002E51E /* Segment.app */;
 			productType = "com.apple.product-type.application";
 		};
 		62DE7245254F63770002E51E /* Unit Tests */ = {
@@ -220,7 +220,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 62DE7230254F63760002E51E /* Build configuration list for PBXProject "Segments" */;
+			buildConfigurationList = 62DE7230254F63760002E51E /* Build configuration list for PBXProject "Segment" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -233,7 +233,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				62DE7234254F63760002E51E /* Segments */,
+				62DE7234254F63760002E51E /* Segment */,
 				62DE7245254F63770002E51E /* Unit Tests */,
 				62DE7250254F63770002E51E /* UI Tests */,
 			);
@@ -301,12 +301,12 @@
 /* Begin PBXTargetDependency section */
 		62DE7248254F63770002E51E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 62DE7234254F63760002E51E /* Segments */;
+			target = 62DE7234254F63760002E51E /* Segment */;
 			targetProxy = 62DE7247254F63770002E51E /* PBXContainerItemProxy */;
 		};
 		62DE7253254F63770002E51E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 62DE7234254F63760002E51E /* Segments */;
+			target = 62DE7234254F63760002E51E /* Segment */;
 			targetProxy = 62DE7252254F63770002E51E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -363,6 +363,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -418,6 +419,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -437,13 +439,12 @@
 				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 9G47WR9NR2;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Segments/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = pro.rzeszot.segments.ios;
+				PRODUCT_BUNDLE_IDENTIFIER = pro.rzeszot.segment.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -459,13 +460,12 @@
 				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 9G47WR9NR2;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Segments/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = pro.rzeszot.segments.ios;
+				PRODUCT_BUNDLE_IDENTIFIER = pro.rzeszot.segment.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -479,18 +479,17 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9G47WR9NR2;
-				INFOPLIST_FILE = "Unit Tests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "pro.rzeszot.segments.unit-tests";
+				PRODUCT_BUNDLE_IDENTIFIER = "pro.rzeszot.segment.unit-tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Segments.app/Segments";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Segment.app/Segment";
 			};
 			name = Debug;
 		};
@@ -501,18 +500,17 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9G47WR9NR2;
-				INFOPLIST_FILE = "Unit Tests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "pro.rzeszot.segments.unit-tests";
+				PRODUCT_BUNDLE_IDENTIFIER = "pro.rzeszot.segment.unit-tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Segments.app/Segments";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Segment.app/Segment";
 			};
 			name = Release;
 		};
@@ -522,13 +520,12 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9G47WR9NR2;
-				INFOPLIST_FILE = "UI Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "pro.rzeszot.segments.ui-tests";
+				PRODUCT_BUNDLE_IDENTIFIER = "pro.rzeszot.segment.ui-tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -542,13 +539,12 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9G47WR9NR2;
-				INFOPLIST_FILE = "UI Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "pro.rzeszot.segments.ui-tests";
+				PRODUCT_BUNDLE_IDENTIFIER = "pro.rzeszot.segment.ui-tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -559,7 +555,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		62DE7230254F63760002E51E /* Build configuration list for PBXProject "Segments" */ = {
+		62DE7230254F63760002E51E /* Build configuration list for PBXProject "Segment" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				62DE7258254F63770002E51E /* Debug */,
@@ -568,7 +564,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		62DE725A254F63770002E51E /* Build configuration list for PBXNativeTarget "Segments" */ = {
+		62DE725A254F63770002E51E /* Build configuration list for PBXNativeTarget "Segment" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				62DE725B254F63770002E51E /* Debug */,
