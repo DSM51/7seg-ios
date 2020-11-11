@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6235A90A2556EC9C00649C86 /* Diode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6235A9092556EC9C00649C86 /* Diode.swift */; };
+		6235A90A2556EC9C00649C86 /* DiodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6235A9092556EC9C00649C86 /* DiodeView.swift */; };
 		626374F82557535A006335CF /* SegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626374F72557535A006335CF /* SegmentView.swift */; };
 		62DE7239254F63760002E51E /* SegmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DE7238254F63760002E51E /* SegmentApp.swift */; };
 		62DE723B254F63760002E51E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DE723A254F63760002E51E /* ContentView.swift */; };
@@ -15,7 +15,7 @@
 		62DE7240254F63770002E51E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62DE723F254F63770002E51E /* Preview Assets.xcassets */; };
 		62DE724B254F63770002E51E /* DiodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DE724A254F63770002E51E /* DiodeTests.swift */; };
 		62DE7256254F63770002E51E /* ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DE7255254F63770002E51E /* ExampleUITests.swift */; };
-		62DE727C254F64010002E51E /* Display.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DE727B254F64010002E51E /* Display.swift */; };
+		62DE727C254F64010002E51E /* DisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DE727B254F64010002E51E /* DisplayView.swift */; };
 		62DE7284254F77FD0002E51E /* Segment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DE7283254F77FD0002E51E /* Segment.swift */; };
 /* End PBXBuildFile section */
 
@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6235A9092556EC9C00649C86 /* Diode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diode.swift; sourceTree = "<group>"; };
+		6235A9092556EC9C00649C86 /* DiodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiodeView.swift; sourceTree = "<group>"; };
 		626374F72557535A006335CF /* SegmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentView.swift; sourceTree = "<group>"; };
 		62DE7235254F63760002E51E /* Segments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Segments.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62DE7238254F63760002E51E /* SegmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentApp.swift; sourceTree = "<group>"; };
@@ -51,7 +51,7 @@
 		62DE7251254F63770002E51E /* UI Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UI Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		62DE7255254F63770002E51E /* ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleUITests.swift; sourceTree = "<group>"; };
 		62DE7257254F63770002E51E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		62DE727B254F64010002E51E /* Display.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Display.swift; sourceTree = "<group>"; };
+		62DE727B254F64010002E51E /* DisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayView.swift; sourceTree = "<group>"; };
 		62DE7283254F77FD0002E51E /* Segment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Segment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,8 +84,8 @@
 			isa = PBXGroup;
 			children = (
 				62DE7283254F77FD0002E51E /* Segment.swift */,
-				62DE727B254F64010002E51E /* Display.swift */,
-				6235A9092556EC9C00649C86 /* Diode.swift */,
+				6235A9092556EC9C00649C86 /* DiodeView.swift */,
+				62DE727B254F64010002E51E /* DisplayView.swift */,
 				626374F72557535A006335CF /* SegmentView.swift */,
 			);
 			path = SegmentView;
@@ -280,11 +280,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				62DE723B254F63760002E51E /* ContentView.swift in Sources */,
-				62DE727C254F64010002E51E /* Display.swift in Sources */,
+				62DE727C254F64010002E51E /* DisplayView.swift in Sources */,
 				62DE7239254F63760002E51E /* SegmentApp.swift in Sources */,
 				62DE7284254F77FD0002E51E /* Segment.swift in Sources */,
 				626374F82557535A006335CF /* SegmentView.swift in Sources */,
-				6235A90A2556EC9C00649C86 /* Diode.swift in Sources */,
+				6235A90A2556EC9C00649C86 /* DiodeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

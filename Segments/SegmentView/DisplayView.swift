@@ -1,12 +1,12 @@
 import SwiftUI
 
-struct Display: View {
+struct DisplayView: View {
   @Binding
   var active: Set<Segment>
 
   var body: some View {
     GeometryReader { geometry in
-      Diode() // a
+      DiodeShape() // a
         .fill(active.color(for: .a))
         .frame(
           width: geometry.size.width * 26 / 120,
@@ -19,7 +19,7 @@ struct Display: View {
         )
         .onTapGesture(perform: { tap(.a) })
 
-      Diode() // g
+      DiodeShape() // g
         .fill(active.color(for: .g))
         .frame(
           width: geometry.size.width * 26 / 120,
@@ -32,7 +32,7 @@ struct Display: View {
         )
         .onTapGesture(perform: { tap(.g) })
 
-      Diode() // d
+      DiodeShape() // d
         .fill(active.color(for: .d))
         .frame(
           width: geometry.size.width * 26 / 120,
@@ -45,7 +45,7 @@ struct Display: View {
         )
         .onTapGesture(perform: { tap(.d) })
 
-      Diode(corners: [.topLeft, .topRight, .bottomRight]) // f
+      DiodeShape(corners: [.topLeft, .topRight, .bottomRight]) // f
         .fill(active.color(for: .f))
         .frame(
           width: geometry.size.width * 26 / 120,
@@ -57,7 +57,7 @@ struct Display: View {
         )
         .onTapGesture(perform: { tap(.f) })
 
-      Diode(corners: [.bottomLeft, .topRight, .topLeft]) // b
+      DiodeShape(corners: [.bottomLeft, .topRight, .topLeft]) // b
         .fill(active.color(for: .b))
         .frame(
           width: geometry.size.width * 26 / 120,
@@ -69,7 +69,7 @@ struct Display: View {
         )
         .onTapGesture(perform: { tap(.b) })
 
-      Diode(corners: [.bottomLeft, .bottomRight, .topLeft]) // c
+      DiodeShape(corners: [.bottomLeft, .bottomRight, .topLeft]) // c
         .fill(active.color(for: .c))
         .frame(
           width: geometry.size.width * 26 / 120,
@@ -81,7 +81,7 @@ struct Display: View {
         )
         .onTapGesture(perform: { tap(.c) })
 
-      Diode(corners: [.bottomLeft, .topRight, .bottomRight]) // e
+      DiodeShape(corners: [.bottomLeft, .topRight, .bottomRight]) // e
         .fill(active.color(for: .e))
         .frame(
           width: geometry.size.width * 26 / 120,

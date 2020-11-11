@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct Diode: Shape {
+struct DiodeShape: Shape {
   var corners: UIRectCorner = .allCorners
 
   func path(in rect: CGRect) -> Path {
@@ -83,7 +83,7 @@ private extension CGRect {
 #if DEBUG
 struct Diode_Previews: PreviewProvider {
   static var previews: some View {
-    Diode()
+    DiodeShape()
       .background(Color.yellow)
       .padding(100)
   }
